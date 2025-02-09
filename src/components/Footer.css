@@ -1,0 +1,9 @@
+.head {
+  color: rgb(43, 155, 230) !important;
+}
+li:hover {
+  color: rgb(43, 155, 230);
+}
+ul:hover {
+  color: rgb(43, 155, 230);
+}

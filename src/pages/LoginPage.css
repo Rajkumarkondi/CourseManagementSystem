@@ -1,0 +1,38 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Adding text alignment to left */
+  text-align: left;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Center the button */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#already {
+  text-align: center;
+}
+
+#head {
+  text-align: center;
+  text-decoration: underline;
+}

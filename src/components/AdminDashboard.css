@@ -1,0 +1,43 @@
+/* Admin dashboard styles */
+.admin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the container take full height of the screen */
+  background-color: #f8f9fa; /* Light background for the admin dashboard */
+  padding: 40px;
+  text-align: center;
+}
+
+.admin-heading {
+  color: #343a40; /* Dark text color for the heading */
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.admin-button-container {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 400px; /* Ensure buttons are not too wide */
+}
+
+.admin .btn {
+  font-size: 18px;
+  padding: 12px 24px;
+  width: 100%; /* Make buttons take up full width */
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+/* Additional styles for active buttons */
+.admin .btn-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.admin .btn-dark {
+  background-color: #343a40;
+  color: #fff;
+}

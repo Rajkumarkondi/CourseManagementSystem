@@ -1,0 +1,27 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.card-content {
+  width: 100%;
+}

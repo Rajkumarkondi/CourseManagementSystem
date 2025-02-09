@@ -1,0 +1,28 @@
+.card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.card-text {
+  margin-bottom: 15px;
+}
+
+.card-content img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card-content h5 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card-content p {
+  margin-bottom: 0;
+}

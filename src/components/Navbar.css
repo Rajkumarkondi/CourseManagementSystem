@@ -1,0 +1,27 @@
+.navbar-black {
+  background-color: black !important;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+  gap: 15px; /* Adds spacing between items */
+}
+
+.nav-link,
+.navbar-brand {
+  color: rgb(43, 155, 230) !important;
+  transition: transform 0.3s ease, text-decoration 0.3s ease;
+  white-space: nowrap; /* Prevents wrapping */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  transition: all;
+  transform: scale(1.2);
+}
+
+/* Change the hamburger icon stripes to white */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
