@@ -17,7 +17,7 @@ import GetAllCourses from "./pages/GetAllCourses";
 import CourseList from "./components/CourseList";
 import UserList from "./components/UserList";
 import AdminDashboard from "./components/AdminDashboard";
-import UpdateDetails from "./pages/updateDetails";
+import UpdateDetails from "./pages/UpdateDetails";
 import MyCourses from "./pages/MyCourses";
 
 function App() {
